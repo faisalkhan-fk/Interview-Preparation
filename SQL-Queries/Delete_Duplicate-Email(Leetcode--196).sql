@@ -1,3 +1,4 @@
+-- Add SQL query to delete duplicate emails from PERSON
 delete p1
 from PERSON p1
 join PERSON p2
