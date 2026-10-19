@@ -6,7 +6,7 @@ public class Main{
       }
  class car extends Vehicle{
      void start(){
-         System.out.println("Car stars");
+         System.out.println("Car starts");
      }
     }
     car c=new car();
