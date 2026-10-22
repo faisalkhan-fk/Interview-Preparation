@@ -9,9 +9,7 @@ public class Main{
         System.out.println("Enter the Elements of Array: ");
         for(int i=0;i<n;i++){
            arr[i]=sc.nextInt(); 
-        }
-        for(int i=0;i<n;i++){
-            sum+=arr[i];
+           sum+=arr[i];
         }
         System.out.println("The sum of elemets is: "+sum);
     }
