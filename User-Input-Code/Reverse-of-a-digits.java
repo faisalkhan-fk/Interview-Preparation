@@ -4,12 +4,12 @@ public class Main{
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the digit: ");
         int n=sc.nextInt();
-        int sum=0;
+        int rev=0;
         while(n>0){
             int val=n%10;
-            sum+=val;
+            rev=rev*10+val;
             n=n/10;
         }
-        System.out.print("Sum of digits is: "+sum);
+        System.out.print("Reverse of a digits is: "+rev);
     }
 }
